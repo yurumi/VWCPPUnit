@@ -62,4 +62,4 @@ macro(package_add_test TESTNAME)
   set_target_properties(${TESTNAME} PROPERTIES FOLDER tests)
 endmacro()
 
-package_add_test(emptyStackTest FirstDemoTest/test.cpp FirstDemoTest/pch.cpp ../FirstDemo/stack.cpp)
+package_add_test(emptyStackTest FirstDemoTest/test.cpp FirstDemoTest/pch.cpp FirstDemo/stack.cpp)
