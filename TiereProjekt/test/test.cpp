@@ -1,4 +1,5 @@
 #include "gtest/gtest.h"
+#include "gmock/gmock.h"
 #include "schwein_test.h"
 #include <string>
 #include <exception>
@@ -8,7 +9,7 @@ TEST(schwein_ctor, ctorWithDefaults_ctorCalledDefault) {
 
 	// Assertion
 	EXPECT_EQ(s.getName(), "nobody");
-	EXPECT_EQ(s.getGewicht(), 10);
+	EXPECT_THAT(s.getGewicht(), ::testing::Eq(10));
 }
 
 TEST(schwein_ctor2, ctorWithNameElsa_ctorCalledThenThrowsException) {
