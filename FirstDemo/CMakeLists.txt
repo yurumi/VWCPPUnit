@@ -63,3 +63,4 @@ macro(package_add_test TESTNAME)
 endmacro()
 
 package_add_test(emptyStackTest FirstDemoTest/test.cpp FirstDemoTest/pch.cpp FirstDemo/stack.cpp)
+package_add_test(emptyStackTestF FirstDemoTest/testF.cpp FirstDemoTest/pch.cpp FirstDemo/stack.cpp)
