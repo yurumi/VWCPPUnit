@@ -1,2 +1,5 @@
 /FirstDemo/build/*
 /TiereProjekt/build/
+/SimpleMockDemoProjekt/build/
+/SimpleMockDemoProjekt/src/_deps
+/SimpleMockDemoProjekt/src/CMakeFiles
