@@ -22,5 +22,5 @@ macro(package_add_test TESTNAME)
 endmacro()
 
 package_add_test(test test.cpp
-  ../src/MeinServiceUsesAktor.cpp
+  ../src/MyServiceUsesActor.cpp
   )

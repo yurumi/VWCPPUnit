@@ -10,6 +10,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 ## Targets.
-add_library(simple_mock_projekt src/MeinServiceUsesAktor.cpp)
+add_library(simple_mock_projekt src/MyServiceUsesActor.cpp)
 
 add_subdirectory(test)

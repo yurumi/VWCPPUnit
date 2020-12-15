@@ -11,7 +11,7 @@ struct ParameterStruct
     }
 };
 
-class Aktor
+class Actor
 {
     public:
         virtual void doIt(ParameterStruct p) = 0;

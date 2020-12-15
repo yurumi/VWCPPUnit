@@ -1,14 +1,14 @@
 #pragma once
-#include "Aktor.h"
+#include "Actor.h"
 
 
-class MeinServiceUsesAktor
+class MyServiceUsesActor
 {
     private:
-        Aktor& aktor;
+        Actor& actor;
 
     public:
-        MeinServiceUsesAktor(Aktor& aktor);
+        MyServiceUsesActor(Actor& actor);
 
         // erzeugt ParameterObject und setzt für x = value + 1, y = value + 2; ruft doIt mit diesen Params auf
         void foo(int value);

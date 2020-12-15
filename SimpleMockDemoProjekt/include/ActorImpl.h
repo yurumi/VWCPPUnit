@@ -1,11 +1,11 @@
 #pragma once
-#include "Aktor.h"
+#include "Actor.h"
 
 
-class AktorImpl : public Aktor
+class ActorImpl : public Actor
 {
     public:
-        AktorImpl(){};
+        ActorImpl(){};
 
         void doIt(ParameterStruct p) override {}
 };
